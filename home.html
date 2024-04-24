@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeaway</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__wrap">
+            <p class="header__title">We're open and available for takeaway & delivery.</p>
+            <!-- <a href="#order" class="header__btn">Order Now</a> -->
+            <button class="modal-trigger header__btn" data-modal="modal">Order Now</button>
+
+        </div>
+    </header>
+
+    <section class="nav">
+        <div class="container">
+            <div class="nav__wrap">
+                <img src="img/nav__logo.png" alt="logo" class="nav__logo">
+                <div class="nav__links">
+                    <a href="#home" class="nav__link active">Home</a>
+                    <a href="#order" class="nav__link">Order</a>
+                    <a href="#company" class="nav__link">Company</a>
+                    <a href="#faq" class="nav__link">FAQ</a>
+                    <a href="#contact" class="nav__link">Contact</a>
+                    <a href="#order" class="nav__link">
+                        <img src="img/nav__cart.png" alt="cart" class="nav__cart">
+                    </a>
+                </div>
+                <img src="img/nav__burger.png" alt="" class="nav__burger">
+            </div>
+        </div>
+    </section>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__wrap">
+                <div class="hero__box">
+                    <h2 class="hero__title">Beautiful food & takeaway, <span>delivered</span> to your door.</h2>
+                    <p class="hero__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
+                        industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.
+                    </p>
+
+                    <!-- <a href="#order" class="hero__btn">Place an Order</a> -->
+                    <button class="hero__btn">Place an Order</button>
+
+                </div>
+                <img src="img/hero__img.png" alt="Slide 1" class="hero__img">
+                <img src="img/hero__img2.png" alt="Slide 2" class="hero__img">
+                <img src="img/hero__img3.png" alt="Slide 3" class="hero__img">
+                <img src="img/hero__img4.png" alt="Slide 4" class="hero__img">
+                <img src="img/hero__img5.png" alt="Slide 5" class="hero__img">
+                <img src="img/hero__img6.png" alt="Slide 6" class="hero__img">
+                <img src="img/hero__img7.png" alt="Slide 7" class="hero__img">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="fresh" id="company">
+        <div class="container">
+            <div class="fresh__wrap">
+                <div class="fresh__box">
+                    <h2 class="fresh__title">The home of <br> fresh products</h2>
+                    <p class="fresh__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
+                        industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.
+                    </p>
+                    <!-- <a href="#faq" class="fresh__btn">Learn about us</a> -->
+                    <button class="modal-trigger fresh__btn" data-modal="modal">Learn about us</button>
+
+                </div>
+                <img src="img/fresh__img.png" alt="" class="fresh__img">
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="faq">
+        <div class="container">
+            <h2 class="work__title">How it works.</h2>
+            <div class="work__wrap">
+                <div class="work__card">
+                    <img src="img/work__img.png" alt="" class="work__img">
+                    <p class="work__subtitle">Adapt your menu items</p>
+                    <p class="work__text">Easily adapt your menu using the <br> webflow CMS and allow <br> customers
+                        to browse your items.</p>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/work__img2.png" alt="" class="work__img">
+                    <p class="work__subtitle">Accept online orders & takeout</p>
+                    <p class="work__text">Let your customers order and pay <br> via the powerful ecommerce system,
+                        <br> or simple let them call your store.
+                    </p>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/work__img3.png" alt="" class="work__img">
+                    <p class="work__subtitle">Manage delivery or takeout</p>
+                    <p class="work__text">Manage your own logistics and <br> take orders simply through the <br>
+                        ecommerce system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="order">
+        <div class="container">
+            <div class="menu__box">
+                <h2 class="menu__title">Browse our menu</h2>
+                <p class="menu__description">Use our menu to place an order online, or phone our store <br> to place a
+                    pickup order. Fast and fresh food.</p>
+
+                <div class="menu__btn-box" id="root">
+                    <button onclick="console.log(burgers)" class="menu__btn turquoise">Burgers</button>
+                    <button class="menu__btn">Sides</button>
+                    <button class="menu__btn">Drinks</button>
+                </div>
+
+                <div class="menu__wrap">
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Dreams</p>
+                                    <p class="menu__card-price">$ 9.20 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img2.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Waldo</p>
+                                    <p class="menu__card-price">$ 10.00 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img3.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Cali</p>
+                                    <p class="menu__card-price">$ 8.00 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img4.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Bacon Buddy</p>
+                                    <p class="menu__card-price">$ 9.99 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img5.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Spicy</p>
+                                    <p class="menu__card-price">$ 9.20 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu__card">
+                        <div class="menu__card-cont">
+                            <img src="img/menu__img6.png" alt="" class="menu__img">
+
+                            <div class="menu__card-box">
+                                <div class="menu__card-details">
+                                    <p class="menu__card-name">Burger Classic</p>
+                                    <p class="menu__card-price">$ 8.00 USD</p>
+                                </div>
+
+                                <p class="menu__card-description">Lorem Ipsum is simply dummy text of the <br> printing
+                                    and
+                                    typesetting industry.</p>
+
+                                <div class="menu__card-buttons">
+                                    <button class="menu__card-btn">1</button>
+                                    <button class="menu__card-btn turquoise">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="menu__big-btn">See Full Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout">
+        <div class="container">
+            <div class="checkout__wrap">
+                <img src="img/checkout__img.png" alt="" class="checkout__img">
+
+                <div class="checkout__box">
+                    <p class="checkout__title">Order online with <br> our simple checkout.</p>
+                    <p class="checkout__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
+                        industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.</p>
+                    <!-- <a href="#faq" class="checkout__btn">See our FAQ</a> -->
+                    <button class="modal-trigger button" data-modal="modal">See our FAQ</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="store" id="contact">
+        <div class="container">
+            <div class="store__wrap">
+                <div class="store__box">
+                    <p class="store__title">Call our store and <br> takeaway when it <br> suits you best.</p>
+                    <p class="store__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
+                        industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.</p>
+                    <!-- <button class="store__btn">Ph. +61 233 2333</button> -->
+                    <button class="modal-trigger button" data-modal="modal">Ph. +61 233 2333</button>
+
+                </div>
+
+                <img src="img/store__img.png" alt="" class="store__img">
+            </div>
+
+        </div>
+    </section>
+    <section class="support">
+        <div class="container">
+            <div class="support__wrapper">
+                <img src="img/support__img.png" alt="" class="support__img">
+
+                <div class="support__wrap">
+                    <div class="support__box">
+                        <p class="support__title"><span>Support</span> good food <br> and local business</p>
+                        <!-- <a href="#order" class="support__btn">Order Now</a> -->
+                        <button class="modal-trigger support__btn" data-modal="modal">Order Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="footer__small-box">
+                <img src="img/nav__logo.png" alt="" class="footer__logo">
+                <p class="footer__text">Takeaway & Delivery template <br> for small - medium businesses.</p>
+            </div>
+            <div class="footer__link-box">
+                <div class="footer__item">
+                    <p class="footer__title company">company</p>
+                    <a href="#home" class="footer__link">Home</a>
+                    <a href="#order" class="footer__link">Order</a>
+                    <a href="#faq" class="footer__link">FAQ</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </div>
+
+                <div class="footer__item template">
+                    <p class="footer__title">template</p>
+                    <a href="" class="footer__link">Style Guide</a>
+                    <a href="" class="footer__link">Changelog</a>
+                    <a href="" class="footer__link">Licence</a>
+                    <a href="" class="footer__link">Webflow University</a>
+                </div>
+
+                <div class="footer__item flowbase">
+                    <p class="footer__title">Flowbase</p>
+                    <a href="" class="footer__link">More Cloneables</a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="modal-overlay"></div>
+
+    <section class="modal" id="modal">
+        <div class="modal__row">
+            <div class="modal__col-left">
+                <div class="modal__left">
+                    <div class="modal__logo">
+                        <span>TAKEAWAY.MENU</span>
+                    </div>
+                    <div>
+                        <h4 class="modal__white">All Aboard!</h4>
+                        <p class="modal__white-large">You're just a few clicks from bringing your customers a mobile
+                            menu
+                            that works well on any device. </p>
+                        <p class="modal__white-large">Get Started For Free.</p>
+                        <a href=""><button class="modal__close">Learn more</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__col-right">
+                <div class="modal__right-header">Already have account?
+                    <a href="" class="modal__link"><strong>Sign in</strong></a>
+                </div>
+                <div class="modal__right">
+                    <div class="modal__right-content">
+                        <div class="modal__logo-right">CREATE AN ACCOUNT</h3>
+                        </div>
+                        <div class="modal__form">
+                            <form>
+                                <div class="modal-content">
+                                    <div class="modal__form-area">
+                                        <label class="modal__label">LOGIN INFORMATION</label>
+                                        <input autofocus type="email" name="email" id="email" autocomplete="off"
+                                            class="modal__input-field" placeholder="Email Address" value="">
+                                        <input type="password" inputmode="text" name="password" id="password"
+                                            autocomplete="new-password" maxlength="40" class="modal__input-field"
+                                            placeholder="Password">
+                                        <input type="password" inputmode="text" name="password_confirmation"
+                                            id="password_confirmation" autocomplete="new-password"
+                                            class="modal__input-field" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="modal__container">
+                                        <div class="modal__btn-container">
+                                            <button type="submit" class="modal__btn">Register</button><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
