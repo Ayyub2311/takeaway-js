@@ -48,7 +48,7 @@
   width: 20px;
   position: relative;
   z-index: 1000;
-  transform: scale(2);
+  transform: scale(3);
 }
 
 .nav__links.active {
@@ -180,6 +180,7 @@
   padding: 10px 30px;
   border-radius: 5px;
   border: solid 1px lightgray;
+  transition: all 0.5s ease;
 }
 .menu__wrap {
   display: flex;
@@ -354,12 +355,12 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-.turquoise {
-  background-color: #35B8BE;
-}
-
 .active {
   color: #35B8BE;
+}
+
+.menu__btn:hover {
+  background-color: #35B8BE;
 }
 
 .scrollToTopButton {
@@ -424,6 +425,9 @@
   letter-spacing: 1px;
   cursor: pointer;
   margin-top: 20px;
+}
+.modal__close {
+  color: black;
 }
 .modal__col-right {
   display: flex;
