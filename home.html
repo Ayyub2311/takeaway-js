@@ -7,6 +7,10 @@
     <title>Takeaway</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -14,8 +18,7 @@
     <header class="header">
         <div class="header__wrap">
             <p class="header__title">We're open and available for takeaway & delivery.</p>
-            <!-- <a href="#order" class="header__btn">Order Now</a> -->
-            <button class="modal-trigger header__btn" data-modal="modal">Order Now</button>
+            <a href="modal.html" class="modal-trigger header__btn" data-modal="modal">Order Now</a>
 
         </div>
     </header>
@@ -34,8 +37,9 @@
                         <img src="img/nav__cart.png" alt="cart" class="nav__cart">
                     </a>
                 </div>
-                <img src="img/nav__burger.png" alt="" class="nav__burger">
+                <i class="fa-solid fa-bars nav__burger"></i>
             </div>
+        </div>
         </div>
     </section>
 
@@ -72,8 +76,7 @@
                     <p class="fresh__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
                         industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.
                     </p>
-                    <!-- <a href="#faq" class="fresh__btn">Learn about us</a> -->
-                    <button class="modal-trigger fresh__btn" data-modal="modal">Learn about us</button>
+                    <a href="modal.html" class="modal-trigger fresh__btn" data-modal="modal">Learn about us</a>
 
                 </div>
                 <img src="img/fresh__img.png" alt="" class="fresh__img">
@@ -271,8 +274,7 @@
                     <p class="checkout__title">Order online with <br> our simple checkout.</p>
                     <p class="checkout__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
                         industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.</p>
-                    <!-- <a href="#faq" class="checkout__btn">See our FAQ</a> -->
-                    <button class="modal-trigger checkout__btn" data-modal="modal">See our FAQ</button>
+                    <a href="modal.html" class="modal-trigger checkout__btn" data-modal="modal">See our FAQ</a>
 
                 </div>
             </div>
@@ -286,8 +288,7 @@
                     <p class="store__title">Call our store and <br> takeaway when it <br> suits you best.</p>
                     <p class="store__text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
                         industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500.</p>
-                    <!-- <button class="store__btn">Ph. +61 233 2333</button> -->
-                    <button class="modal-trigger store__btn" data-modal="modal">Ph. +61 233 2333</button>
+                    <a href="modal.html" class="modal-trigger store__btn" data-modal="modal">Ph. +61 233 2333</a>
 
                 </div>
 
@@ -304,8 +305,7 @@
                 <div class="support__wrap">
                     <div class="support__box">
                         <p class="support__title"><span>Support</span> good food <br> and local business</p>
-                        <!-- <a href="#order" class="support__btn">Order Now</a> -->
-                        <button class="modal-trigger support__btn" data-modal="modal">Order Now</button>
+                        <a href="modal.html" class="modal-trigger support__btn" data-modal="modal">Order Now</a>
 
                     </div>
                 </div>
@@ -345,61 +345,6 @@
         </div>
 
     </footer>
-
-    <div class="modal-overlay"></div>
-
-    <section class="modal" id="modal">
-        <div class="modal__row">
-            <div class="modal__col-left">
-                <div class="modal__left">
-                    <div class="modal__logo">
-                        <span>TAKEAWAY.MENU</span>
-                    </div>
-                    <div>
-                        <h4 class="modal__white">All Aboard!</h4>
-                        <p class="modal__white-large">You're just a few clicks from bringing your customers a mobile
-                            menu
-                            that works well on any device. </p>
-                        <p class="modal__white-large">Get Started For Free.</p>
-                        <a href=""><button class="modal__close">Learn more</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="modal__col-right">
-                <div class="modal__right-header">Already have account?
-                    <a href="" class="modal__link"><strong>Sign in</strong></a>
-                </div>
-                <div class="modal__right">
-                    <div class="modal__right-content">
-                        <div class="modal__logo-right">CREATE AN ACCOUNT</h3>
-                        </div>
-                        <div class="modal__form">
-                            <form>
-                                <div class="modal-content">
-                                    <div class="modal__form-area">
-                                        <label class="modal__label">LOGIN INFORMATION</label>
-                                        <input autofocus type="email" name="email" id="email" autocomplete="off"
-                                            class="modal__input-field" placeholder="Email Address" value="">
-                                        <input type="password" inputmode="text" name="password" id="password"
-                                            autocomplete="new-password" maxlength="40" class="modal__input-field"
-                                            placeholder="Password">
-                                        <input type="password" inputmode="text" name="password_confirmation"
-                                            id="password_confirmation" autocomplete="new-password"
-                                            class="modal__input-field" placeholder="Confirm Password">
-                                    </div>
-                                    <div class="modal__container">
-                                        <div class="modal__btn-container">
-                                            <button type="submit" class="modal__btn">Register</button><br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <script src="main.js"></script>
 
